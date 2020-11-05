@@ -1,0 +1,71 @@
+Enquirer inheritance should support inheritance
+Enquirer questions should run a single question object
+Enquirer questions should run an array of questions
+Enquirer static .prompt() should run a single question object
+Enquirer static .prompt() should run an array of questions
+Enquirer options should accept `stdin` and `stdout` replacements
+Enquirer options should pass enquirer options to prompts
+Enquirer onSubmit should call onSubmit when a prompt is submitted before without initializing
+Enquirer onSubmit should call onSubmit if prompt is initialized
+Enquirer onSubmit should await onSubmit when a prompt submitted
+prompt-autocomplete keypress > number should support number keypresses
+prompt-autocomplete keypress > number should filter by keypress
+child_process should works in child_process
+Input Prompt options.initial should use value defined on options.initial
+Input Prompt options.result should support options.result
+Input Prompt options.hint should render a hint
+Input Prompt keypresses should take user input
+Input Prompt keypresses should support backspace
+Input Prompt keypresses should support <left>
+Input Prompt keypresses should support <toggleCursor>
+Input Prompt keypresses should support <right>
+Input Prompt keypresses should alert when <left> is used and cursor is zero
+Input Prompt keypresses should alert when <right> is used and cursor is at EOS
+Input Prompt keypresses should support <next>
+Input Prompt keypresses should support <prev>
+Input Prompt keypresses should alert when <next> is used and cursor is at EOS
+Input Prompt keypresses should alert when <prev> is used and cursor is at EOS
+Input Prompt keypresses should alert when <backspace> is used and cursor is at BOS
+Input Prompt keypresses should support <deleteForward>
+Input Prompt keypresses should alert when <deleteForward> is used and cursor is at BOS
+Input Prompt keypresses should support <cutForward>
+Input Prompt keypresses should alert when <cutForward> is used at EOS
+Input Prompt keypresses should support <paste>
+Input Prompt keypresses should support <cutLeft>
+Input Prompt keypresses should alert when <paste> is used and is empty
+Input Prompt keypresses should alert when <cutLeft> is used at BOS
+Input Prompt keypresses should support <first>
+Input Prompt keypresses should support <last>
+Input Prompt keypresses should reset to initial value
+Input Prompt options.multiline should allow return without submitting
+Input Prompt options.multiline should submit when return is pressed twice in a row
+invisible prompt options.initial should use options.initial without typing
+invisible prompt options.initial should use options.initial after typing
+invisible prompt prompt.value should output the un-modified value
+list options.initial should return early when options.initial is defined
+list options.initial should use options.initial when it is an empty string
+list options.separator should use a custom separator
+list usage should get a list of keywords
+list usage should get a list of email address
+password options.initial should not print password when answer is submitted
+password options.initial should use options.initial
+password prompt.value should output the un-modified value
+number prompt options.min should set prompt.min with options.min
+number prompt options.max should set prompt.max with options.max
+number prompt options.float should allow floats when options.float is true
+number prompt options.float should round when options.float is false
+number prompt options.minor should increment using options.minor
+number prompt options.minor should return zero when submitted with no val and options.minor
+number prompt options.minor should increment and decrement by options.step
+number prompt options.minor should increment and decrement floats
+number prompt options.minor should increment and decrement and round floats when disabled
+number prompt options.initial should use options.initial when 0
+number prompt options.initial should use options.initial
+number prompt prompt.reset should reset the prompt to options.initial
+number prompt keypresses should alert when keypress is invalid
+number prompt keypresses should support <next>
+string prompt options.initial should use options.initial when submitted without changes
+string prompt options.initial should cast options.initial to a string
+string prompt options.initial should not convert empty string to `undefined`
+string prompt cursor position should update cursor position when the user types input
+string prompt cursor position should alert when invalid key combos are given
